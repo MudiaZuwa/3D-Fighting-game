@@ -1,4 +1,4 @@
-import "modulepreload-polyfill-3cfb730f.js";
+import "./modulepreload-polyfill-3cfb730f.js";
 import {
   p as E,
   h as H,

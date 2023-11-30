@@ -1,6 +1,6 @@
 @font-face {
   font-family: PressStart2P;
-  src: url(/PressStart2P-Regular-8d0248e4.ttf);
+  src: url(/assets/PressStart2P-Regular-8d0248e4.ttf);
 }
 * {
   box-sizing: border-box;
@@ -54,7 +54,7 @@
 #loadingScreen {
   width: 100%;
   height: 100vh;
-  background-image: url(/negx-b29bbd85.jpg);
+  background-image: url(/assets/negx-b29bbd85.jpg);
   background-size: 100% 99.9%;
   display: flex;
   justify-content: center;
