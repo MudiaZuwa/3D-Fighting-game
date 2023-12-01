@@ -1,4 +1,4 @@
-import "modulepreload-polyfill-3cfb730f.js";
+import "./modulepreload-polyfill-3cfb730f.js";
 const b = document.getElementById("Single"),
   h = document.getElementById("Multi"),
   p = document.getElementById("Quit");

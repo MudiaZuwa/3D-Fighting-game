@@ -1,4 +1,4 @@
-import "modulepreload-polyfill-3cfb730f.js";
+import "./modulepreload-polyfill-3cfb730f.js";
 let s;
 const t = { player1: null, player2: null };
 let l = "player1",
