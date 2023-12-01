@@ -100,12 +100,12 @@ function S() {
     case 1:
       (d = "Multi Player"),
         localStorage.setItem("Mode", d),
-        (window.location.pathname = "SelectController/index.html");
+        (window.location.href = "SelectController/index.html");
       break;
     case 2:
       (d = "Single Player"),
         localStorage.setItem("Mode", d),
-        (window.location.pathname = "SelectController/index.html");
+        (window.location.href = "SelectController/index.html");
       break;
     case 3:
       alert("Abeg Where Do You Know Your Quitting To?");
