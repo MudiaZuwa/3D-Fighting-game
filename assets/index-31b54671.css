@@ -1,6 +1,6 @@
 @font-face {
   font-family: PressStart2P;
-  src: url(assets/PressStart2P-Regular-8d0248e4.ttf);
+  src: url(./PressStart2P-Regular-8d0248e4.ttf);
 }
 * {
   box-sizing: border-box;
@@ -13,7 +13,7 @@
   user-select: none;
 }
 .background {
-  background-image: url(assets/negx-b29bbd85.jpg);
+  background-image: url(./negx-b29bbd85.jpg);
   background-size: 100% 99.9%;
   height: 100vh;
   width: 100%;
