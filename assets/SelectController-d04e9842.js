@@ -7,7 +7,7 @@ let l = "player1",
   r;
 window.addEventListener("load", () => {
   (s = localStorage.getItem("Mode")),
-    s === null && (location.href = "index.html"),
+    s === null && (location.href = "../index.html"),
     s === "Single Player" &&
       ((document.getElementsByClassName("player")[1].style.display = "none"),
       (document.getElementsByClassName("text")[1].style.display = "none")),
@@ -26,8 +26,8 @@ window.addEventListener("load", () => {
                 (document.getElementsByClassName(
                   "controller"
                 )[0].style.opacity = 0))
-              : (location.href = "index.html");
-          } else location.href = "index.html";
+              : (location.href = "../index.html");
+          } else location.href = "../index.html";
       }
     }),
     addEventListener("gamepadconnected", (e) => {
@@ -64,8 +64,8 @@ function m() {
                       (document.getElementsByClassName(
                         "controller"
                       )[0].style.opacity = 0))
-                    : (location.href = "index.html");
-                } else location.href = "index.html";
+                    : (location.href = "../index.html");
+                } else location.href = "../index.html";
             }
         });
     }),
@@ -78,22 +78,22 @@ function y(e) {
         e === "Keyboard"
           ? document
               .getElementsByClassName("controller")[0]
-              .setAttribute("src", "resources/Icons/wasd.png")
+              .setAttribute("src", "../resources/Icons/wasd.png")
           : document
               .getElementsByClassName("controller")[0]
-              .setAttribute("src", "resources/Icons/controller.png"))
+              .setAttribute("src", "../resources/Icons/controller.png"))
       : l === "player2" &&
         ((document.getElementsByClassName("controller")[1].style.opacity = 100),
         e === "Keyboard"
           ? document
               .getElementsByClassName("controller")[1]
-              .setAttribute("src", "resources/Icons/wasd.png")
+              .setAttribute("src", "../resources/Icons/wasd.png")
           : document
               .getElementsByClassName("controller")[1]
-              .setAttribute("src", "resources/Icons/controller.png")),
+              .setAttribute("src", "../resources/Icons/controller.png")),
     s === "Single Player" || (s === "Multi Player" && l === "player2")
       ? (s === "Single Player" && (t.player2 = "Computer"),
         localStorage.setItem("Controllers", JSON.stringify(t)),
-        (window.location.href = "SelectCharacter/index.html"))
+        (window.location.href = "../SelectCharacter/index.html"))
       : s === "Multi Player" && l === "player1" && (l = "player2");
 }

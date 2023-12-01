@@ -39,15 +39,15 @@ class Q {
       document.getElementById("body").appendChild(this.renderer.domElement),
       (this.loadingManager = new K());
     const s = new R(this.loadingManager).load([
-      "resources/Textures/posx.jpg",
-      "resources/Textures/negx.jpg",
-      "resources/Textures/posy.jpg",
-      "resources/Textures/negy.jpg",
-      "resources/Textures/posz.jpg",
-      "resources/Textures/negz.jpg",
+      "../resources/Textures/posx.jpg",
+      "../resources/Textures/negx.jpg",
+      "../resources/Textures/posy.jpg",
+      "../resources/Textures/negy.jpg",
+      "../resources/Textures/posz.jpg",
+      "../resources/Textures/negz.jpg",
     ]);
     this.scene.background = s;
-    const p = new F(this.loadingManager).load("resources/Textures/negy.jpg"),
+    const p = new F(this.loadingManager).load("../resources/Textures/negy.jpg"),
       o = new P(new J(4150, 2e3), new U({ map: p }));
     (o.rotation.x = -Math.PI / 2),
       o.position.set(0, -450, -100),
@@ -107,8 +107,8 @@ n.loadingManager.onLoad = () => {
     (document.getElementById("body").style.display = "block"),
     (j = localStorage.getItem("Mode")),
     (c = JSON.parse(localStorage.getItem("Controllers"))),
-    j === null && (location.href = "index.html"),
-    c === null && (location.href = "SelectController/index.html"),
+    j === null && (location.href = "../index.html"),
+    c === null && (location.href = "../SelectController/index.html"),
     l(),
     addEventListener("keydown", (r) => {
       if (
@@ -120,7 +120,7 @@ n.loadingManager.onLoad = () => {
               (a.player2 = { row: null, column: null }),
               B(),
               l())
-            : (location.href = "SelectController/index.html")),
+            : (location.href = "../SelectController/index.html")),
         c[t] === "Keyboard" ||
           (c.player1 === "Keyboard" && c.player2 === "Computer"))
       )
@@ -175,7 +175,7 @@ function X() {
               (a.player2 = { row: null, column: null }),
               B(),
               l())
-            : (location.href = "SelectController/index.html")),
+            : (location.href = "../SelectController/index.html")),
         (c[t] === r || (c.player1 === r && c.player2 === "Computer")) &&
           (Math.abs(h - i) > 10 || i === void 0))
       ) {
@@ -244,7 +244,7 @@ function I() {
           : (a[t] = { row: 1, column: 2 }),
         l())
       : (localStorage.setItem("Characters", JSON.stringify(x)),
-        (window.location.href = "GamePage/index.html")));
+        (window.location.href = "../GamePage/index.html")));
 }
 function l() {
   for (let r = 1; r < 7; r++)

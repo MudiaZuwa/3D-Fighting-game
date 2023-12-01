@@ -5002,7 +5002,9 @@ class xn {
       this.CreateBoundaries();
   }
   CreateGroundMesh() {
-    const e = new ke(this.loadingManager).load("resources/Textures/negy.jpg"),
+    const e = new ke(this.loadingManager).load(
+        "../resources/Textures/negy.jpg"
+      ),
       s = new $(new Dt(4150, 2e3), new Mt({ map: e }));
     (s.rotation.x = -Math.PI / 2),
       s.position.set(0, -450, -100),
@@ -6024,16 +6026,16 @@ class Pn {
         case 2:
           this.gamestate === this.GAMESTATE.PAUSED
             ? this.ChangeState("STARTED")
-            : (location.href = "SelectCharacter/index.html");
+            : (location.href = "../SelectCharacter/index.html");
           break;
         case 3:
           this.gamestate === this.GAMESTATE.PAUSED
-            ? (location.href = "SelectCharacter/index.html")
-            : (location.href = "index.html");
+            ? (location.href = "../SelectCharacter/index.html")
+            : (location.href = "../index.html");
           break;
         case 4:
           this.gamestate === this.GAMESTATE.PAUSED &&
-            (location.href = "index.html");
+            (location.href = "../index.html");
           break;
       }
   }
@@ -6045,11 +6047,11 @@ class kn {
       (this.selectedCharacters = JSON.parse(
         localStorage.getItem("Characters")
       )),
-      this.mode === null && (location.href = "index.html"),
+      this.mode === null && (location.href = "../index.html"),
       this.playerControlers === null &&
-        (location.href = "SelectController/index.html"),
+        (location.href = "../SelectController/index.html"),
       this.selectedCharacters === null &&
-        (location.href = "SelectCharacter/index.html"),
+        (location.href = "../SelectCharacter/index.html"),
       (this.gameWidth = t),
       (this.gameHeight = e),
       this.init(),
@@ -6093,12 +6095,12 @@ class kn {
         .appendChild(this.renderer.domElement),
       (this.loadingManager = new je());
     const e = new We(this.loadingManager).load([
-      "resources/Textures/posx.jpg",
-      "resources/Textures/negx.jpg",
-      "resources/Textures/posy.jpg",
-      "resources/Textures/negy.jpg",
-      "resources/Textures/posz.jpg",
-      "resources/Textures/negz.jpg",
+      "../resources/Textures/posx.jpg",
+      "../resources/Textures/negx.jpg",
+      "../resources/Textures/posy.jpg",
+      "../resources/Textures/negy.jpg",
+      "../resources/Textures/posz.jpg",
+      "../resources/Textures/negz.jpg",
     ]);
     (this.scene.background = e),
       (this.cannonDebugger = new gn(this.scene, this.world, {
