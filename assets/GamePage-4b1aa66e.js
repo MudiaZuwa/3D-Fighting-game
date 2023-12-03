@@ -28,7 +28,7 @@ import {
   L as je,
   o as We,
   p as Zt,
-} from "index-b74b9157.js";
+} from "./index-b74b9157.js";
 class Z {
   constructor(t) {
     t === void 0 && (t = [0, 0, 0, 0, 0, 0, 0, 0, 0]), (this.elements = t);

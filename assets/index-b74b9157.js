@@ -24966,7 +24966,7 @@ function s_(o, e, t, n) {
 function Sl(o, e, t) {
   return o.slice(0, e).concat(t).concat(o.slice(e));
 }
-const a_ = "resources/Characters/Alex/Alex.fbx",
+const a_ = "../resources/Characters/Alex/Alex.fbx",
   o_ = 2.35,
   l_ = {
     head: { shape: "Sphere", size: "30", offsetX: "10", offsetY: "25" },
@@ -24985,71 +24985,71 @@ const a_ = "resources/Characters/Alex/Alex.fbx",
   c_ = [
     {
       name: "Idle",
-      src: "resources/Characters/Alex/Animations/Fighting Idle.fbx",
+      src: "../resources/Characters/Alex/Animations/Fighting Idle.fbx",
     },
     {
       name: "Walk",
-      src: "resources/Characters/Alex/Animations/Walking.fbx",
+      src: "../resources/Characters/Alex/Animations/Walking.fbx",
     },
     {
       name: "Walk-Backwards",
-      src: "resources/Characters/Alex/Animations/Walking BackWards.fbx",
+      src: "../resources/Characters/Alex/Animations/Walking BackWards.fbx",
     },
     {
       name: "Crouched",
-      src: "resources/Characters/Alex/Animations/Crouching Idle.fbx",
+      src: "../resources/Characters/Alex/Animations/Crouching Idle.fbx",
     },
     {
       name: "Jump",
-      src: "resources/Characters/Alex/Animations/Jumping.fbx",
+      src: "../resources/Characters/Alex/Animations/Jumping.fbx",
     },
     {
       name: "Punch1",
-      src: "resources/Characters/Alex/Animations/Illegal Elbow Punch.fbx",
+      src: "../resources/Characters/Alex/Animations/Illegal Elbow Punch.fbx",
     },
     {
       name: "Punch2",
-      src: "resources/Characters/Alex/Animations/Illegal Elbow Punch1.fbx",
+      src: "../resources/Characters/Alex/Animations/Illegal Elbow Punch1.fbx",
     },
     {
       name: "Punch3",
-      src: "resources/Characters/Alex/Animations/Hook Punch.fbx",
+      src: "../resources/Characters/Alex/Animations/Hook Punch.fbx",
     },
     {
       name: "Kick1",
-      src: "resources/Characters/Alex/Animations/Illegal Knee.fbx",
+      src: "../resources/Characters/Alex/Animations/Illegal Knee.fbx",
     },
     {
       name: "Kick2",
-      src: "resources/Characters/Alex/Animations/Illegal Knee1.fbx",
+      src: "../resources/Characters/Alex/Animations/Illegal Knee1.fbx",
     },
     {
       name: "Kick3",
-      src: "resources/Characters/Alex/Animations/Mma Kick.fbx",
+      src: "../resources/Characters/Alex/Animations/Mma Kick.fbx",
     },
     {
       name: "Light-HeadHit",
-      src: "resources/Characters/Alex/Animations/Head Hit.fbx",
+      src: "../resources/Characters/Alex/Animations/Head Hit.fbx",
     },
     {
       name: "Heavy-HeadHit",
-      src: "resources/Characters/Alex/Animations/Head Hit1.fbx",
+      src: "../resources/Characters/Alex/Animations/Head Hit1.fbx",
     },
     {
       name: "Light-TorsoHit",
-      src: "resources/Characters/Alex/Animations/Stomach Hit.fbx",
+      src: "../resources/Characters/Alex/Animations/Stomach Hit.fbx",
     },
     {
       name: "Heavy-TorsoHit",
-      src: "resources/Characters/Alex/Animations/Hit To Body.fbx",
+      src: "../resources/Characters/Alex/Animations/Hit To Body.fbx",
     },
     {
       name: "KnockOut",
-      src: "resources/Characters/Alex/Animations/Sword And Shield Death.fbx",
+      src: "../resources/Characters/Alex/Animations/Sword And Shield Death.fbx",
     },
   ],
   h_ = { model: a_, scale: o_, cannonBodies: l_, animations: c_ },
-  u_ = "resources/Characters/CopZombie/copzombie_l_actisdato.fbx",
+  u_ = "../resources/Characters/CopZombie/copzombie_l_actisdato.fbx",
   f_ = 1.9,
   d_ = {
     head: { shape: "Sphere", size: "30", offsetX: "10", offsetY: "25" },
@@ -25068,75 +25068,75 @@ const a_ = "resources/Characters/Alex/Alex.fbx",
   p_ = [
     {
       name: "Idle",
-      src: "resources/Characters/CopZombie/Animations/Zombie Idle.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Zombie Idle.fbx",
     },
     {
       name: "Walk",
-      src: "resources/Characters/CopZombie/Animations/Walking.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Walking.fbx",
     },
     {
       name: "Walk-Backwards",
-      src: "resources/Characters/CopZombie/Animations/Injured Walk BackWards.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Injured Walk BackWards.fbx",
     },
     {
       name: "Crouched",
-      src: "resources/Characters/CopZombie/Animations/Crouching Idle.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Crouching Idle.fbx",
     },
     {
       name: "Jump",
-      src: "resources/Characters/CopZombie/Animations/Mutant Jumping.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Mutant Jumping.fbx",
     },
     {
       name: "Pick",
-      src: "resources/Characters/CopZombie/Animations/Throw Object.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Throw Object.fbx",
     },
     {
       name: "Punch1",
-      src: "resources/Characters/CopZombie/Animations/Zombie Punching.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Zombie Punching.fbx",
     },
     {
       name: "Punch2",
-      src: "resources/Characters/CopZombie/Animations/Zombie Punching1.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Zombie Punching1.fbx",
     },
     {
       name: "Punch3",
-      src: "resources/Characters/CopZombie/Animations/Zombie Punching2.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Zombie Punching2.fbx",
     },
     {
       name: "Kick1",
-      src: "resources/Characters/CopZombie/Animations/Zombie Kicking.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Zombie Kicking.fbx",
     },
     {
       name: "Kick2",
-      src: "resources/Characters/CopZombie/Animations/Zombie Kicking1.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Zombie Kicking1.fbx",
     },
     {
       name: "Kick3",
-      src: "resources/Characters/CopZombie/Animations/Zombie Kicking2.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Zombie Kicking2.fbx",
     },
     {
       name: "Light-HeadHit",
-      src: "resources/Characters/CopZombie/Animations/Zombie Reaction Hit.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Zombie Reaction Hit.fbx",
     },
     {
       name: "Heavy-HeadHit",
-      src: "resources/Characters/CopZombie/Animations/Zombie Reaction Hit.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Zombie Reaction Hit.fbx",
     },
     {
       name: "Light-TorsoHit",
-      src: "resources/Characters/CopZombie/Animations/Zombie Reaction Hit.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Zombie Reaction Hit.fbx",
     },
     {
       name: "Heavy-TorsoHit",
-      src: "resources/Characters/CopZombie/Animations/Zombie Reaction Hit.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Zombie Reaction Hit.fbx",
     },
     {
       name: "KnockOut",
-      src: "resources/Characters/CopZombie/Animations/Zombie Death.fbx",
+      src: "../resources/Characters/CopZombie/Animations/Zombie Death.fbx",
     },
   ],
   m_ = { model: u_, scale: f_, cannonBodies: d_, animations: p_ },
-  g_ = "resources/Characters/Eve/Eve.fbx",
+  g_ = "../resources/Characters/Eve/Eve.fbx",
   __ = 3,
   x_ = {
     head: { shape: "Sphere", size: "30", offsetX: "10", offsetY: "25" },
@@ -25155,75 +25155,75 @@ const a_ = "resources/Characters/Alex/Alex.fbx",
   v_ = [
     {
       name: "Idle",
-      src: "resources/Characters/Eve/Animations/Ninja Idle.fbx",
+      src: "../resources/Characters/Eve/Animations/Ninja Idle.fbx",
     },
     {
       name: "Walk",
-      src: "resources/Characters/Eve/Animations/Walking.fbx",
+      src: "../resources/Characters/Eve/Animations/Walking.fbx",
     },
     {
       name: "Walk-Backwards",
-      src: "resources/Characters/Eve/Animations/Walking BackWards.fbx",
+      src: "../resources/Characters/Eve/Animations/Walking BackWards.fbx",
     },
     {
       name: "Crouched",
-      src: "resources/Characters/Eve/Animations/Female Crouch Pose.fbx",
+      src: "../resources/Characters/Eve/Animations/Female Crouch Pose.fbx",
     },
     {
       name: "Jump",
-      src: "resources/Characters/Eve/Animations/Jumping.fbx",
+      src: "../resources/Characters/Eve/Animations/Jumping.fbx",
     },
     {
       name: "Pick",
-      src: "resources/Characters/Eve/Animations/Throw Object.fbx",
+      src: "../resources/Characters/Eve/Animations/Throw Object.fbx",
     },
     {
       name: "Punch1",
-      src: "resources/Characters/Eve/Animations/Punching.fbx",
+      src: "../resources/Characters/Eve/Animations/Punching.fbx",
     },
     {
       name: "Punch2",
-      src: "resources/Characters/Eve/Animations/Punching1.fbx",
+      src: "../resources/Characters/Eve/Animations/Punching1.fbx",
     },
     {
       name: "Punch3",
-      src: "resources/Characters/Eve/Animations/Jab to Elbow Punch.fbx",
+      src: "../resources/Characters/Eve/Animations/Jab to Elbow Punch.fbx",
     },
     {
       name: "Kick1",
-      src: "resources/Characters/Eve/Animations/Mma Kick.fbx",
+      src: "../resources/Characters/Eve/Animations/Mma Kick.fbx",
     },
     {
       name: "Kick2",
-      src: "resources/Characters/Eve/Animations/Mma Kick1.fbx",
+      src: "../resources/Characters/Eve/Animations/Mma Kick1.fbx",
     },
     {
       name: "Kick3",
-      src: "resources/Characters/Eve/Animations/Mma Kick2.fbx",
+      src: "../resources/Characters/Eve/Animations/Mma Kick2.fbx",
     },
     {
       name: "Light-HeadHit",
-      src: "resources/Characters/Eve/Animations/Head Hit.fbx",
+      src: "../resources/Characters/Eve/Animations/Head Hit.fbx",
     },
     {
       name: "Heavy-HeadHit",
-      src: "resources/Characters/Eve/Animations/Head Hit1.fbx",
+      src: "../resources/Characters/Eve/Animations/Head Hit1.fbx",
     },
     {
       name: "Light-TorsoHit",
-      src: "resources/Characters/Eve/Animations/Stomach Hit.fbx",
+      src: "../resources/Characters/Eve/Animations/Stomach Hit.fbx",
     },
     {
       name: "Heavy-TorsoHit",
-      src: "resources/Characters/Eve/Animations/Hit To Body.fbx",
+      src: "../resources/Characters/Eve/Animations/Hit To Body.fbx",
     },
     {
       name: "KnockOut",
-      src: "resources/Characters/Eve/Animations/Falling Back Death.fbx",
+      src: "../resources/Characters/Eve/Animations/Falling Back Death.fbx",
     },
   ],
   y_ = { model: g_, scale: __, cannonBodies: x_, animations: v_ },
-  b_ = "resources/Characters/Kachujin/Kachujin.fbx",
+  b_ = "../resources/Characters/Kachujin/Kachujin.fbx",
   M_ = 2,
   S_ = {
     head: { shape: "Sphere", size: "30", offsetX: "20", offsetY: "25" },
@@ -25242,79 +25242,79 @@ const a_ = "resources/Characters/Alex/Alex.fbx",
   w_ = [
     {
       name: "Idle",
-      src: "resources/Characters/Kachujin/Animations/Idle.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Idle.fbx",
     },
     {
       name: "Walk",
-      src: "resources/Characters/Kachujin/Animations/Walking.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Walking.fbx",
     },
     {
       name: "Walk-Backwards",
-      src: "resources/Characters/Kachujin/Animations/Walking BackWards.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Walking BackWards.fbx",
     },
     {
       name: "Step-Forward",
-      src: "resources/Characters/Kachujin/Animations/Long Step Forward.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Long Step Forward.fbx",
     },
     {
       name: "Step-Backward",
-      src: "resources/Characters/Kachujin/Animations/Step BackWard.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Step BackWard.fbx",
     },
     {
       name: "Crouched",
-      src: "resources/Characters/Kachujin/Animations/Crouching Idle.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Crouching Idle.fbx",
     },
     {
       name: "Jump",
-      src: "resources/Characters/Kachujin/Animations/Jump.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Jump.fbx",
     },
     {
       name: "Punch1",
-      src: "resources/Characters/Kachujin/Animations/Hook.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Hook.fbx",
     },
     {
       name: "Punch2",
-      src: "resources/Characters/Kachujin/Animations/Hook1.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Hook1.fbx",
     },
     {
       name: "Punch3",
-      src: "resources/Characters/Kachujin/Animations/Right Hook.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Right Hook.fbx",
     },
     {
       name: "Kick1",
-      src: "resources/Characters/Kachujin/Animations/Roundhouse Kick.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Roundhouse Kick.fbx",
     },
     {
       name: "Kick2",
-      src: "resources/Characters/Kachujin/Animations/Roundhouse Kick1.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Roundhouse Kick1.fbx",
     },
     {
       name: "Kick3",
-      src: "resources/Characters/Kachujin/Animations/MMa Kick.fbx",
+      src: "../resources/Characters/Kachujin/Animations/MMa Kick.fbx",
     },
     {
       name: "Light-HeadHit",
-      src: "resources/Characters/Kachujin/Animations/Head Hit.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Head Hit.fbx",
     },
     {
       name: "Heavy-HeadHit",
-      src: "resources/Characters/Kachujin/Animations/Head Hit1.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Head Hit1.fbx",
     },
     {
       name: "Light-TorsoHit",
-      src: "resources/Characters/Kachujin/Animations/Stomach Hit.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Stomach Hit.fbx",
     },
     {
       name: "Heavy-TorsoHit",
-      src: "resources/Characters/Kachujin/Animations/Big Stomach Hit.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Big Stomach Hit.fbx",
     },
     {
       name: "KnockOut",
-      src: "resources/Characters/Kachujin/Animations/Knocked Out.fbx",
+      src: "../resources/Characters/Kachujin/Animations/Knocked Out.fbx",
     },
   ],
   T_ = { model: b_, scale: M_, cannonBodies: S_, animations: w_ },
-  A_ = "resources/Characters/Pete/Ch17_nonPBR.fbx",
+  A_ = "../resources/Characters/Pete/Ch17_nonPBR.fbx",
   E_ = 2.2,
   C_ = {
     head: { shape: "Sphere", size: "30", offsetX: "10", offsetY: "25" },
@@ -25333,75 +25333,75 @@ const a_ = "resources/Characters/Alex/Alex.fbx",
   P_ = [
     {
       name: "Idle",
-      src: "resources/Characters/Pete/Animations/Fighting Idle.fbx",
+      src: "../resources/Characters/Pete/Animations/Fighting Idle.fbx",
     },
     {
       name: "Walk",
-      src: "resources/Characters/Pete/Animations/Walking.fbx",
+      src: "../resources/Characters/Pete/Animations/Walking.fbx",
     },
     {
       name: "Walk-Backwards",
-      src: "resources/Characters/Pete/Animations/Walking BackWards.fbx",
+      src: "../resources/Characters/Pete/Animations/Walking BackWards.fbx",
     },
     {
       name: "Crouched",
-      src: "resources/Characters/Pete/Animations/Crouching Idle.fbx",
+      src: "../resources/Characters/Pete/Animations/Crouching Idle.fbx",
     },
     {
       name: "Jump",
-      src: "resources/Characters/Pete/Animations/Jump.fbx",
+      src: "../resources/Characters/Pete/Animations/Jump.fbx",
     },
     {
       name: "Pick",
-      src: "resources/Characters/Pete/Animations/Throw Object.fbx",
+      src: "../resources/Characters/Pete/Animations/Throw Object.fbx",
     },
     {
       name: "Punch1",
-      src: "resources/Characters/Pete/Animations/Punching.fbx",
+      src: "../resources/Characters/Pete/Animations/Punching.fbx",
     },
     {
       name: "Punch2",
-      src: "resources/Characters/Pete/Animations/Punching1.fbx",
+      src: "../resources/Characters/Pete/Animations/Punching1.fbx",
     },
     {
       name: "Punch3",
-      src: "resources/Characters/Pete/Animations/Illegal Headbutt.fbx",
+      src: "../resources/Characters/Pete/Animations/Illegal Headbutt.fbx",
     },
     {
       name: "Kick1",
-      src: "resources/Characters/Pete/Animations/Side Kick.fbx",
+      src: "../resources/Characters/Pete/Animations/Side Kick.fbx",
     },
     {
       name: "Kick2",
-      src: "resources/Characters/Pete/Animations/Side Kick1.fbx",
+      src: "../resources/Characters/Pete/Animations/Side Kick1.fbx",
     },
     {
       name: "Kick3",
-      src: "resources/Characters/Pete/Animations/Mma Kick.fbx",
+      src: "../resources/Characters/Pete/Animations/Mma Kick.fbx",
     },
     {
       name: "Light-HeadHit",
-      src: "resources/Characters/Pete/Animations/Light Hit To Head.fbx",
+      src: "../resources/Characters/Pete/Animations/Light Hit To Head.fbx",
     },
     {
       name: "Heavy-HeadHit",
-      src: "resources/Characters/Pete/Animations/Medium Hit To Head.fbx",
+      src: "../resources/Characters/Pete/Animations/Medium Hit To Head.fbx",
     },
     {
       name: "Light-TorsoHit",
-      src: "resources/Characters/Pete/Animations/Stomach Hit.fbx",
+      src: "../resources/Characters/Pete/Animations/Stomach Hit.fbx",
     },
     {
       name: "Heavy-TorsoHit",
-      src: "resources/Characters/Pete/Animations/Hit To Body.fbx",
+      src: "../resources/Characters/Pete/Animations/Hit To Body.fbx",
     },
     {
       name: "KnockOut",
-      src: "resources/Characters/Pete/Animations/Dying Backwards.fbx",
+      src: "../resources/Characters/Pete/Animations/Dying Backwards.fbx",
     },
   ],
   L_ = { model: A_, scale: E_, cannonBodies: C_, animations: P_ },
-  R_ = "resources/Characters/Swat/Swat.fbx",
+  R_ = "../resources/Characters/Swat/Swat.fbx",
   D_ = 2.3,
   I_ = {
     head: { shape: "Sphere", size: "30", offsetX: "10", offsetY: "25" },
@@ -25420,79 +25420,79 @@ const a_ = "resources/Characters/Alex/Alex.fbx",
   F_ = [
     {
       name: "Idle",
-      src: "resources/Characters/Swat/Animations/Idle.fbx",
+      src: "../resources/Characters/Swat/Animations/Idle.fbx",
     },
     {
       name: "Walk",
-      src: "resources/Characters/Swat/Animations/Walking.fbx",
+      src: "../resources/Characters/Swat/Animations/Walking.fbx",
     },
     {
       name: "Walk-Backwards",
-      src: "resources/Characters/Swat/Animations/Walking BackWards.fbx",
+      src: "../resources/Characters/Swat/Animations/Walking BackWards.fbx",
     },
     {
       name: "Step-Forward",
-      src: "resources/Characters/Swat/Animations/Long Step Forward.fbx",
+      src: "../resources/Characters/Swat/Animations/Long Step Forward.fbx",
     },
     {
       name: "Step-Backward",
-      src: "resources/Characters/Swat/Animations/Step BackWard.fbx",
+      src: "../resources/Characters/Swat/Animations/Step BackWard.fbx",
     },
     {
       name: "Crouched",
-      src: "resources/Characters/Swat/Animations/Crouching Idle.fbx",
+      src: "../resources/Characters/Swat/Animations/Crouching Idle.fbx",
     },
     {
       name: "Jump",
-      src: "resources/Characters/Swat/Animations/Jump.fbx",
+      src: "../resources/Characters/Swat/Animations/Jump.fbx",
     },
     {
       name: "Pick",
-      src: "resources/Characters/Swat/Animations/Throw Object.fbx",
+      src: "../resources/Characters/Swat/Animations/Throw Object.fbx",
     },
     {
       name: "Punch1",
-      src: "resources/Characters/Swat/Animations/Punching.fbx",
+      src: "../resources/Characters/Swat/Animations/Punching.fbx",
     },
     {
       name: "Punch2",
-      src: "resources/Characters/Swat/Animations/Punching1.fbx",
+      src: "../resources/Characters/Swat/Animations/Punching1.fbx",
     },
     {
       name: "Punch3",
-      src: "resources/Characters/Swat/Animations/Cross Punch.fbx",
+      src: "../resources/Characters/Swat/Animations/Cross Punch.fbx",
     },
     {
       name: "Kick1",
-      src: "resources/Characters/Swat/Animations/Side Kick.fbx",
+      src: "../resources/Characters/Swat/Animations/Side Kick.fbx",
     },
     {
       name: "Kick2",
-      src: "resources/Characters/Swat/Animations/Side Kick1.fbx",
+      src: "../resources/Characters/Swat/Animations/Side Kick1.fbx",
     },
     {
       name: "Kick3",
-      src: "resources/Characters/Swat/Animations/Roundhouse Kick.fbx",
+      src: "../resources/Characters/Swat/Animations/Roundhouse Kick.fbx",
     },
     {
       name: "Light-HeadHit",
-      src: "resources/Characters/Swat/Animations/Head Hit.fbx",
+      src: "../resources/Characters/Swat/Animations/Head Hit.fbx",
     },
     {
       name: "Heavy-HeadHit",
-      src: "resources/Characters/Swat/Animations/Big Hit To Head.fbx",
+      src: "../resources/Characters/Swat/Animations/Big Hit To Head.fbx",
     },
     {
       name: "Light-TorsoHit",
-      src: "resources/Characters/Swat/Animations/Stomach Hit.fbx",
+      src: "../resources/Characters/Swat/Animations/Stomach Hit.fbx",
     },
     {
       name: "Heavy-TorsoHit",
-      src: "resources/Characters/Swat/Animations/Hit To Body.fbx",
+      src: "../resources/Characters/Swat/Animations/Hit To Body.fbx",
     },
     {
       name: "KnockOut",
-      src: "resources/Characters/Swat/Animations/Knocked Out.fbx",
+      src: "../resources/Characters/Swat/Animations/Knocked Out.fbx",
     },
   ],
   B_ = { model: R_, scale: D_, cannonBodies: I_, animations: F_ },

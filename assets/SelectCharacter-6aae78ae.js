@@ -15,8 +15,7 @@ import {
   f as q,
   A as V,
   g as S,
-} from "index-b74b9157.js";
-console.log(E);
+} from "./index-b74b9157.js";
 class Q {
   constructor({ gameWidth: e, gameHeight: s }) {
     (this.gameWidth = e),
